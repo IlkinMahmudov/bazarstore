@@ -157,6 +157,7 @@ body{
     font-size: 12px;
 }
 
+/* =================== Right Content =================== */
 .right-content{
     flex: 1;
     display: flex;
@@ -189,47 +190,55 @@ body{
     color: #fff;
 }
 
+/* Banner */
 .banner{
     position: relative;
-    background: #fff;
-    border-radius: 10px;
+    max-width: 100%;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    margin-bottom: 30px; 
 }
 
-.banner img{
+
+.slider{
+    position: relative;
+    height: 600px;
+}
+
+.slide{
+    position: absolute;
+    inset: 0;
     width: 100%;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.slide.active{
+    opacity: 1;
 }
 
 .banner-info{
     position: absolute;
     top: 20px;
     left: 20px;
-    color: #fff;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
-.banner-info h2{
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.banner-info .price-box{
+.price-box{
     background: #ffd700;
     padding: 10px 15px;
     font-weight: bold;
-    display: inline-block;
     border-radius: 5px;
     color: #000;
 }
 
-
+/* Stats */
 .stats{
     display: flex;
     justify-content: space-between;
     background: #fff;
-    padding: 20px;
+    padding: 35px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
