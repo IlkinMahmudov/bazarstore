@@ -9,7 +9,6 @@
   border-bottom: 1px solid #eaeaea;
 }
 
-/* logo */
 .logo {
   display: flex;
   align-items: center;
@@ -23,7 +22,7 @@
   display: block;
 }
 
-/* adrees */
+
 .address {
  width: 100%;
  max-width: 200px;
@@ -39,9 +38,9 @@
   white-space: nowrap;
 }
 
-/* search */
+
 .search {
-  width: 100%;
+  width: 100%;  
   max-width: 410px;
   height: 44px;
   display: flex;
@@ -53,6 +52,7 @@
 
 .search input {
   flex: 1;
+  background: none;
   border: none;
   outline: none;
   font-size: 14px;
@@ -63,7 +63,7 @@
   color: #000;
 }
 
-/* right icons */
+
 .actions {
   display: flex;
   align-items: center;
@@ -116,7 +116,7 @@ body{
     gap: 20px;
 }
 
-/* =================== Left Sidebar =================== */
+
 .category-box{
     width: 300px;
     background: #fff;
@@ -157,7 +157,6 @@ body{
     font-size: 12px;
 }
 
-/* =================== Right Content =================== */
 .right-content{
     flex: 1;
     display: flex;
@@ -165,7 +164,7 @@ body{
     gap: 20px;
 }
 
-/* Top Menu */
+
 .top-menu ul{
     display: flex;
     list-style: none;
@@ -190,7 +189,6 @@ body{
     color: #fff;
 }
 
-/* Banner */
 .banner{
     position: relative;
     background: #fff;
@@ -226,7 +224,7 @@ body{
     color: #000;
 }
 
-/* Stats */
+
 .stats{
     display: flex;
     justify-content: space-between;
@@ -249,4 +247,17 @@ body{
 .stat-item p{
     color: #666;
     font-weight: 600;
+}
+
+.Reklam_kosesi img{
+    display: block;
+    background: center center fixed no-repeat;
+    float: left;
+    width: 300px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+img{
+max-width:100%;
 }
