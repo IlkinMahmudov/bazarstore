@@ -127,10 +127,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let catX = 0;
 
-  // kateqoriyaları fetch ilə al
-  fetch("../json/categories.json")
+                                                                                                                                                                                
+  fetch("../json/categories.json")                                                                                                                                     
     .then(res => res.json())
-    .then(data => {
+    .then(data => {                                                   
       catTrack.innerHTML = "";
       data.forEach(cat => {
         catTrack.innerHTML += `
