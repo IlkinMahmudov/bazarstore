@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Ət, Toyuq, Balıq",
+    "count": 1281,
+    "image": "images/meat.webp"
+  },
+  {
+    "title": "Endirimli Məhsullar",
+    "count": 1675,
+    "image": "images/discount.webp"
+  },
+  {
+    "title": "Çox Satanlar",
+    "count": 87,
+    "image": "images/most-sale.webp"
+  },
+  {
+    "title": "Uşaq Dünyası",
+    "count": 346,
+    "image": "images/children.webp"
+  },
+  {
+    "title": "Meyvə, Tərəvəz",
+    "count": 157,
+    "image": "images/fruit.webp"
+  },
+  {
+    "title": "Süd, Səhər Yeməyi",
+    "count": 979,
+    "image": "images/milk.webp"
+  },
+  {
+    "title": "Təməl Qida",
+    "count": 1867,
+    "image": "images/contain-food.webp"
+  },
+  {
+    "title": "Hazır yeməklər",
+    "count": 61,
+    "image": "images/ready-meal.webp"
+  },
+  {
+    "title": "Fırın, Pastane",
+    "count": 369,
+    "image": "images/firin.webp"
+  },
+  {
+    "title": "Atışdırmalıq",
+    "count": 1799,
+    "image": "images/snack.webp"
+  },
+  {
+    "title": "İçkilər",
+    "count": 1106,
+    "image": "images/drinks.webp"
+  },
+  {
+    "title": "Tütün Məhsulları",
+    "count": 104,
+    "image": "images/smoke.webp"
+  }
+]

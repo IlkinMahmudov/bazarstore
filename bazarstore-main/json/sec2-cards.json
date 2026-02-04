@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "AĞ KƏLƏM KG",
+    "image": "images/ag-kelem.webp",
+    "price": 0.45,
+    "oldPrice": 0.65,
+    "badge": "Endirim"
+  },
+  {
+    "id": 2,
+    "name": "BİBƏR RƏNGLİ KQ",
+    "image": "images/biber-rengli.webp",
+    "price": 2.99,
+    "oldPrice": 3.99,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 3,
+    "name": "PORTAĞAL İTXAL KG",
+    "image": "images/portagal.webp",
+    "price": 2.49,
+    "oldPrice": 3.39,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 4,
+    "name": "KİVİ KQ",
+    "image": "images/kivi.webp",
+    "price": 2.99,
+    "oldPrice": 4.39,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+
+  {
+    "id": 5,
+    "name": "AYSBERQ KQ",
+    "image": "images/aysberq.webp",
+    "price": 1.79,
+    "oldPrice": 2.39,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 6,
+    "name": "BİBƏR KAPYA İDXAL KG",
+    "image": "images/biber-kapya.webp",
+    "price": 3.69,
+    "oldPrice": 5.49,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 7,
+    "name": "AVOKADO KQ",
+    "image": "avokado.webp",
+    "price": 9.99,
+    "oldPrice": 12.99,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 8,
+    "name": "ALMA QIRMIZI YERLİ KQ",
+    "image": "images/alma-qirmizi.webp",
+    "price": 0.89,
+    "oldPrice": 1.39,
+    "badge": "Onlayn Sifarişə Özəl"
+  }
+]
