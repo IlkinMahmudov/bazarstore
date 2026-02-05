@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
       });
 
-      // Slayder düymələrini aktivləşdir
+     
       const catStep = () => catViewport.offsetWidth * 0.35;
 
       catNext.onclick = () => {
@@ -161,4 +161,6 @@ document.addEventListener("DOMContentLoaded", () => {
       };
     })
     .catch(err => console.error("Xəta:", err));
-});
+
+    
+    });
