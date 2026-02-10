@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Nutella Şokolad Yağı 350 Q",
+    "image": "images/nutella.webp",
+    "price": 8.39,
+    "oldPrice": 10.59,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 2,
+    "name": "Nescafe Qəhvə 190 Q Qızılı",
+    "image": "images/nescafe.webp",
+    "price": 12.99,
+    "oldPrice": 22.49,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 3,
+    "name": "Azercay Buket 225 Q",
+    "image": "images/azercay.webp",
+    "price": 5.69,
+    "oldPrice": 6.95,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 4,
+    "name": "Gillette Blue 3 Comfort 6+2",
+    "image": "images/gilette.webp",
+    "price": 6.95,
+    "oldPrice": 15.29,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+
+  {
+    "id": 5,
+    "name": "GILLETTE BLUE 2 PLUS BIÇAQ 2 Lİ",
+    "image": "images/gillette-blue.webp",
+    "price": 1.69,
+    "oldPrice": 2.69,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 6,
+    "name": "GILLETTE BİRDƏFƏLİK ÜLGÜC 2 Lİ",
+    "image": "images/gillette-birdefelik.webp",
+    "price": 0.99,
+    "oldPrice": 1.79,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 7,
+    "name": "GILLETTE BLUE TƏRAŞ BIÇAĞI 3 TƏKLİ",
+    "image": "images/gillette-blue-3.webp",
+    "price": 1.25,
+    "oldPrice": 2.99,
+    "badge": "Onlayn Sifarişə Özəl"
+  },
+  {
+    "id": 8,
+    "name": "GILLETTE 2 PAKET 5 Lİ",
+    "image": "images/gillette-2-5.webp",
+    "price": 2.29,
+    "oldPrice": 4.29,
+    "badge": "Onlayn Sifarişə Özəl"
+  }
+]
