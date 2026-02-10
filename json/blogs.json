@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Bazarstore Artıq 24/7 Xidmətinizdə!",
+    "date": "2026-01-09",
+    "image": "images/bazarstore-24-7.webp"
+  },
+  {
+    "id": 2,
+    "title": "E-Sosial Barkodu Təqdim Et Endirim Qazan!",
+    "date": "2025-12-01",
+    "image": "images/e-sosial-endirim.webp"
+  },
+  {
+    "id": 3,
+    "title": "Dünyada Maraqlı Yeni İl Adət-Ənənələri",
+    "date": "2024-12-09",
+    "image": "images/yeni-il-adetleri.webp"
+  },
+  {
+    "id": 4,
+    "title": "Onlayn Sifarişə Özəl Endirimlər",
+    "date": "2024-10-23",
+    "image": "images/online-endirim.webp"
+  },
+  {
+    "id": 5,
+    "title": "Bazarstore.az | Onlayn Market Alış-Verişi",
+    "date": "2024-10-03",
+    "image": "images/online-market.webp"
+  },
+  {
+    "id": 6,
+    "title": "Bazarstore.az – Onlayn Supermarket",
+    "date": "2024-08-02",
+    "image": "images/online-supermarket.webp"
+  }
+]

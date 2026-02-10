@@ -162,5 +162,58 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error("Xəta:", err));
 
+
+    
     
     });
+
+const blogTrack = document.getElementById("blogTrack");
+const blogViewport = document.querySelector(".blog-viewport");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+
+let currentX = 0;
+const step = 200; 
+
+fetch("json/blogs.json")
+  .then(res => res.json())
+  .then(blogs => {
+    blogs.forEach(blog => {
+      blogTrack.innerHTML += `
+        <div class="blog-card">
+          <img src="${blog.image}" alt="${blog.title}">
+          <div class="blog-content">
+            <div class="blog-date">${blog.date}</div>
+            <div class="blog-title">${blog.title}</div>
+          </div>
+        </div>
+      `;
+    });
+  });
+function getMaxTranslate() {
+  const trackWidth = blogTrack.scrollWidth;
+  const viewportWidth = blogViewport.offsetWidth;
+  return viewportWidth - trackWidth; 
+}
+
+nextBtn.addEventListener("click", () => {
+  const maxTranslate = getMaxTranslate();
+
+  currentX -= step;
+
+  if (currentX < maxTranslate) {
+    currentX = maxTranslate;
+  }
+
+  blogTrack.style.transform = `translateX(${currentX}px)`;
+});
+
+prevBtn.addEventListener("click", () => {
+  currentX += step;
+
+  if (currentX > 0) {
+    currentX = 0; // əvvələ çatdı, dayansın
+  }
+
+  blogTrack.style.transform = `translateX(${currentX}px)`;
+});
